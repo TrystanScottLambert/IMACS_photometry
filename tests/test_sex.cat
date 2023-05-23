@@ -1,0 +1,20 @@
+#   1 ALPHAPEAK_J2000        Right ascension of brightest pix (J2000)                   [deg]
+#   2 DELTAPEAK_J2000        Declination of brightest pix (J2000)                       [deg]
+#   3 X_IMAGE                Object position along x                                    [pixel]
+#   4 Y_IMAGE                Object position along y                                    [pixel]
+#   5 MAG_APER               Fixed aperture magnitude vector                            [mag]
+#   6 MAGERR_APER            RMS error vector for fixed aperture mag.                   [mag]
+#   7 MAG_AUTO               Kron-like elliptical aperture magnitude                    [mag]
+#   8 MAGERR_AUTO            RMS error for AUTO magnitude                               [mag]
+#   9 FLUX_AUTO              Flux within a Kron-like elliptical aperture                [count]
+#  10 FLUXERR_AUTO           RMS error for AUTO flux                                    [count]
+#  11 FLUX_APER              Flux vector within fixed circular aperture(s)              [count]
+#  12 FLUXERR_APER           RMS error vector for aperture flux(es)                     [count]
+#  13 CLASS_STAR             S/G classifier output                                     
+357.2083782 -31.3287859   6668.1299     22.2592   3.0380  10.1379  -1.1803   0.1752     2.965627     0.478345   0.06092633    0.5687548  0.206
+357.1463842 -31.3281250   7626.5249     35.5100   0.0118   0.6233  -2.0166   0.0663     6.406828    0.3908599     0.989194    0.5677239  0.557
+357.1014746 -31.3276507   8322.0576     45.0041   0.4248   0.9165  -0.4333   0.3306     1.490477    0.4537309     0.676227    0.5706557  0.026
+357.1623026 -31.3277261   7379.3623     39.7327  -2.7463   0.0494   1.9177   5.6824    0.1709745     0.894607     12.54613    0.5701241  0.026
+357.1475482 -31.3272398   7609.9502     51.6081  -1.8316   0.1146  -2.0412   0.0679     6.553566    0.4099062     5.403298    0.5700679  0.132
+357.2047523 -31.3274635   6725.5962     46.3564   0.3434   0.8487  -0.2593   0.5174     1.269772    0.6049156    0.7288247    0.5695885  0.022
+357.1472894 -31.3273505   7611.9370     48.8913  -3.1227   0.0349  -2.9277   0.0532     14.82735    0.7257311     17.74514    0.5695571  0.028
