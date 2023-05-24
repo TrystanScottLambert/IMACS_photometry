@@ -66,4 +66,4 @@ color_ri = Color('r-i', r_cat, i_cat)
 color_iz = Color('i-z', i_cat, z_cat)
 
 settings = Settings(i_obs, i_cat, [color_ri, color_iz])
-transformation = get_photometric_transformation(settings)
+transform = get_photometric_transformation(settings)
