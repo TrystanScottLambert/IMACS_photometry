@@ -5,8 +5,7 @@ Determining the zero point of the photometric calibration.
 import numpy as np
 from astropy.coordinates import SkyCoord
 import astropy.units as u
-from photcal.photometric_calibration import get_photometric_transformation, Color,\
-      FilterMag, Settings
+from photcal.photometric_calibration import FilterMag, Color, Transformation
 
 from determine_star_limits import UPPER_LIM, LOWER_LIM, SEARCH_TOLERANCE
 from catalogs import SextractorCatalog, PanstarrsCatalog
@@ -65,5 +64,5 @@ z_cat = FilterMag(
 color_ri = Color('r-i', r_cat, i_cat)
 color_iz = Color('i-z', i_cat, z_cat)
 
-settings = Settings(i_obs, i_cat, [color_ri, color_iz])
-transform = get_photometric_transformation(settings)
+trans = Transformation(i_obs, i_cat, [color_ri, color_iz])
+imacs_zpt = trans.zero_point

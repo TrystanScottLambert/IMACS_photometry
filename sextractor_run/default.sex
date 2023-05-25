@@ -77,5 +77,5 @@ HEADER_SUFFIX    .head          # Filename extension for additional headers
 WRITE_XML        N              # Write XML file (Y/N)?
 XML_NAME         sex.xml        # Filename for XML output
 
-#WEIGHT_TYPE     NONE
-#WEIGHT_IMAGE	N964_band_weight_coadd.fits
+WEIGHT_TYPE     MAP_VAR
+WEIGHT_IMAGE	../imacs_data/night_1_theli.weight.fits
