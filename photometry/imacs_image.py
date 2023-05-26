@@ -40,5 +40,6 @@ class ImacsImage:
 
 
 if __name__ == '__main__':
-    infile = '../imacs_data/night_1_theli.fits'
-    night_1 = ImacsImage(infile)
+    #infile = '../imacs_data/night_1_theli.fits'
+    infile = '../imacs_data/night_2_theli.fits'
+    night_2 = ImacsImage(infile)
