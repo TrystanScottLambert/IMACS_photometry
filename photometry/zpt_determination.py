@@ -11,7 +11,7 @@ from determine_star_limits import UPPER_LIM, LOWER_LIM, SEARCH_TOLERANCE
 from catalogs import SextractorCatalog, PanstarrsCatalog
 
 
-INFILE_SEX = '../sextractor_run/imacs.cat'
+INFILE_SEX = '../sextractor_run/imacs_2.cat'
 INFILE_PAN = '../panstarrs_catalog/PS-5_22_2023.csv'
 sex_cat = SextractorCatalog(INFILE_SEX)
 pan_cat = PanstarrsCatalog(INFILE_PAN)
@@ -66,3 +66,4 @@ color_iz = Color('i-z', i_cat, z_cat)
 
 trans = Transformation(i_obs, i_cat, [color_ri, color_iz])
 imacs_zpt = trans.zero_point
+print('zpt = ', imacs_zpt)
